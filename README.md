@@ -63,3 +63,25 @@ Berdasarkan konfigurasi IP yang sudah didapatkan, gambarkan tree VLSM nya.
 3) Testing\
     Sekarang kita akan melakukan testing. Contoh yang akan digunakan adalah dari LakeKorridor ke Aura dan sebaliknya.
     ![VLSM_Testing](images/VLSM_TestingRes.png)
+
+## CIDR
+### Topologi CIDR
+Tentukan subnet dari topologi, dengan metode CIDR.
+![CIDR_Routing](images/CIDR_Routing.png)
+
+### Rute dan Subnet Mask
+Tentukan subnet mask dari masing-masing subnet, dengan jumlah host yang dibutuhkan yang tercamtum di topologi.
+![CIDR_Route](images/penggabungan-cidr1.png)
+![CIDR_Route](images/penggabungan-cidr2.png)
+![CIDR_Route](images/penggabungan-cidr3.png)
+
+### Konfigurasi IP
+Buat perhitungan dari subnet mask dari masing-masing subnet untuk menentukan pembagian konfigurasi IP.
+![CIDR_IP](images/cidr-pembagian-ip.png)
+
+### CIDR Tree
+Berdasarkan konfigurasi IP yang sudah didapatkan, gambarkan tree CIDR nya.
+![CIDR_Tree](images/cidr_it17.png)
+
+### Konfigurasi di GNS
+Kami tidak sempat mengimplementasikan pada gns
